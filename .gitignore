@@ -25,8 +25,8 @@ ENV/
 # 📊 MACHINE LEARNING ARTIFACTS
 # ======================================
 # Modelos y datasets grandes
-data/
-models/
+data/**
+models/**
 outputs/
 artifacts/
 notebooks/
@@ -35,7 +35,6 @@ notebooks/
 # 🧪 DVC 
 # ======================================
 # Permitir .dvc files pero ignorar los datos reales
-data/**
 !data/**/*.dvc
 !data/.gitignore
 

@@ -1,1 +1,16 @@
-pip install 
+stages:
+  prepare:
+    cmd: python src/data_prep.py
+    deps:
+      - src/data_prep.py
+      - data/raw/cars.csv
+    outs:
+      - data/processed/cars_clean.csv
+
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - data/processed/cars_clean.csv
+    outs:
+      - models/rf_model.pkl

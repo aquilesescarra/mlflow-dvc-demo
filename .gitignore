@@ -35,8 +35,9 @@ notebooks/
 # 🧪 DVC 
 # ======================================
 # Permitir .dvc files pero ignorar los datos reales
-/data/**/*.csv
-!/data/**/*.dvc
+data/**
+!data/**/*.dvc
+!data/.gitignore
 
 # ======================================
 # 📈 MLflow experiment tracking

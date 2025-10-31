@@ -1,0 +1,21 @@
+# ==========================
+# 📦 CORE DEPENDENCIES
+# ==========================
+pandas==2.3.3
+numpy==2.3.4
+scikit-learn==1.7.2
+joblib==1.5.2
+PyYAML==6.0.3
+
+# ==========================
+# 🧠 EXPERIMENT TRACKING
+# ==========================
+mlflow==3.5.1
+dvc==3.48.3
+
+# ==========================
+# ⚙️ DEVELOPMENT & UTILITIES
+# ==========================
+matplotlib==3.10.7
+python-dotenv==1.2.1
+requests==2.32.5

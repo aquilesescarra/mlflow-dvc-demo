@@ -1,0 +1,52 @@
+# ======================================
+# 🧠 PYTHON & ENVIRONMENT
+# ======================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+ENV/
+.envrc
+.DS_Store
+
+# ======================================
+# 📦 DEPENDENCY & CONFIG FILES
+# ======================================
+*.log
+*.bak
+*.tmp
+*.swp
+*.sqlite
+*.db
+
+# ======================================
+# 📊 MACHINE LEARNING ARTIFACTS
+# ======================================
+# Modelos y datasets grandes
+data/
+models/
+outputs/
+artifacts/
+notebooks/
+
+# ======================================
+# 🧪 DVC 
+# ======================================
+# Permitir .dvc files pero ignorar los datos reales
+/data/**/*.csv
+!/data/**/*.dvc
+
+# ======================================
+# 📈 MLflow experiment tracking
+# ======================================
+mlruns/
+mlartifacts/
+
+# ======================================
+# ⚙️ CODESPACES & SYSTEM
+# ======================================
+.vscode/
+.ipynb_checkpoints/
+__pycache__/

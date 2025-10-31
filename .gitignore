@@ -38,6 +38,9 @@ notebooks/
 !data/**/*.dvc
 !data/.gitignore
 
+!models/**/*.dvc
+!models/.gitignore
+
 # ======================================
 # 📈 MLflow experiment tracking
 # ======================================
